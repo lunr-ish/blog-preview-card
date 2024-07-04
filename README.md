@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/accessible-and-responsive-blog-preview-card-NFOxPwuUBq](https://www.frontendmentor.io/solutions/accessible-and-responsive-blog-preview-card-NFOxPwuUBq)
 - Live Site URL: [https://lunr-ish.github.io/blog-preview-card/](https://lunr-ish.github.io/blog-preview-card/)
 
 ## My process
