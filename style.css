@@ -150,10 +150,7 @@ img {
 }
 
 @media (min-width: 40rem) {
-  .card__tag {
-    font-size: 0.875rem;
-  }
-
+  .card__tag,
   .card__published-date {
     font-size: 0.875rem;
   }
