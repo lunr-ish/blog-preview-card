@@ -125,9 +125,14 @@ img {
   font-size: 1.25rem;
 }
 
-.card__title:hover {
+.card__title:hover,
+.card__title:focus-within {
   color: hsl(var(--clr-primary));
   transition-duration: 200ms;
+}
+
+.card__title a {
+  outline: transparent;
 }
 
 .card__description {
