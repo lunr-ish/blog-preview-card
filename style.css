@@ -79,3 +79,12 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.card {
+  background: hsl(var(--clr-white));
+  max-width: 24rem;
+  padding: 1.5rem;
+  border: 1px solid hsl(var(--clr-black));
+  border-radius: 1.25rem;
+  box-shadow: 0.5rem 0.5rem hsl(var(--clr-black));
+}
