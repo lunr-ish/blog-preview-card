@@ -1,3 +1,35 @@
+/* For the variable font */
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+}
+
+/* For italic variable font */
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* For the static font */
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
 :root {
   --clr-primary: 47, 88%, 63%;
   --clr-white: 0, 0%, 100%;
@@ -5,4 +37,14 @@
   --clr-black: 0, 0%, 7%;
 
   --ff-figtree: "Figtree", sans-serif;
+}
+
+body {
+  font-family: var(--ff-figtree);
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  font-weight: 800;
 }
