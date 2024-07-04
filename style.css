@@ -39,7 +39,17 @@
   --ff-figtree: "Figtree", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  width: 100%;
+  min-height: 100vh;
   font-family: var(--ff-figtree);
   font-weight: 500;
 }
@@ -47,4 +57,9 @@ body {
 h1,
 h2 {
   font-weight: 800;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
