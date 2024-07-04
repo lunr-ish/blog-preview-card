@@ -1,0 +1,8 @@
+:root {
+  --clr-primary: 47, 88%, 63%;
+  --clr-white: 0, 0%, 100%;
+  --clr-grey: 0, 0%, 50%;
+  --clr-black: 0, 0%, 7%;
+
+  --ff-figtree: "Figtree", sans-serif;
+}
